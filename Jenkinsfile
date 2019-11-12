@@ -22,6 +22,12 @@ pipeline  {
 							sh 'ls -l'
 								}
 					}
+				stage('top process')
+				{
+					steps {
+						sh 'top'
+					}
+				}
 					}
 				
 		}
