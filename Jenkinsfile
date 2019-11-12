@@ -25,7 +25,7 @@ pipeline  {
 				stage('top process')
 				{
 					steps {
-						sh 'top'
+						sh 'cd ~'
 					}
 				}
 					}
